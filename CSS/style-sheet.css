@@ -4,22 +4,33 @@ body{
     color: #ffffff;
 }
 h1{
-    font-size: 36px;
+    font-size:2em;
     font-weight:600;
+    padding: 5px;
 }
 h2{
     font-size:24px;
     font-weight:200;
 }
 h3{
-    font-size:18px;
+    font-size:.67em;
     font-weight:400;
 }
 h4{
     font-size:14px;
     font-weight:500;
 }
+
+
+
+
+
+
+
+
 .navigation{
+    display:flex;
+    margin:auto;
     width:100%;
     border: 2px solid red;
     position:relative;
@@ -36,8 +47,12 @@ h4{
     border-radius: 7px    
 }
 .inline-block-2{
-    display:inline-block;
-    vertical-align:bottom;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: flex-end;
+    width:75%;
+    padding:1%;
     border: 2px solid red;
     position:absolute;
     Bottom:0px;
@@ -46,19 +61,127 @@ h4{
 
 }
 .primary-nav{
-    width:23%;
+    width:25%;
     margin:1px;
-    box-align:right;
+    padding:1px;
+    background-color: #062559;
+    color: #ffffff;
+    text-align:center;
+    text-decoration:none;
 }
-nav{
-    width:73%;
-    padding:1%;
+
+.heroimg{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 200px 200px 200px;
+   grid-template-areas:
+    'leftsidebartop middlecolumnrow1 rightcolumnrow1'
+    'leftsidebartop middlecolumnrow2 rightcolumnrow2'
+    'leftsidebarbottom middlecolumnrow3 rightcolumnrow3'
+    ;
+    grid-gap:10px;
+    padding:10px;
+    border:2px solid red;
 }
-ul{
+/* div{
+    margin:2px;
+    text-align: center;
+    border:2px solid red;
+} */
+.leftsidebartop{
+    grid-area:leftsidebartop;
+    margin:2px;
+    text-align: left;
+    border:2px solid red;
+}
+.leftsidebarbottom{
+    grid-area:leftsidebarbottom;
+    position:relative;
+    margin:2px;
+    text-align: left;
+    border:2px solid red;
+}
+.middlecolumnrow1{
+    grid-area:middlecolumnrow1;
+    margin:2px;
+    padding:5px;
+    text-align: left;
+    background-color: #062559;
+    border-radius:7px;
+}
+.middlecolumnrow2{
+    grid-area:middlecolumnrow2;
+    margin:2px;
+    padding:5px;
+    text-align: left;
+    background-color: #062559;
+    border-radius:7px;
+}
+.middlecolumnrow3{
+    grid-area:middlecolumnrow3;
+    margin:2px;
+    padding:5px;
+    text-align: left;
+    background-color: #062559;
+    border-radius:7px;
+}
+.rightcolumnrow1{
+    grid-area:rightcolumnrow1;
+    margin:2px;
+    padding:5px;
+    text-align: left;
+    background-color: #062559;
+    border-radius:7px;
+}
+.rightcolumnrow2{
+    grid-area:rightcolumnrow2;
+    margin:2px;
+    padding:5px;
+    text-align: left;
+    background-color: #062559;
+    border-radius:7px;
+}
+.rightcolumnrow3{
+    grid-area:rightcolumnrow3;
+    margin:2px;
+    padding:5px;
+    text-align: left;
+    background-color: #062559;
+    border-radius:7px;
+}
+#headshot{
+    height:350px;
+    align-items: flex-start;
+    padding:20px;
+    border-radius:50px;
+}
+#homepage-email{
+    align-items:top;
+    padding:5px 5px 5px 20px;
+    font-size:24px;
+    font-weight: bold;
+}
+    #widget{
+    width:50px;
+    padding:20px;
+}
+
+
+
+
+
+
+/* ul{
   width:50%;
   margin-left:auto; 
-} 
-.heroimg{
+}  */
+
+
+
+
+
+
+/* .heroimg{
     height:400px;
     width:100%;
     padding:10px;
@@ -66,14 +189,14 @@ ul{
     position:relative;
 }
 .content{
-    height:95%;
+    height:90%;
     border: 2px solid red;
     padding: 5px;
     display:inline-block;
 }
 .left{
     position:absolute;
-    width:30%;
+    width:30%
     top:5px;
     left:10px;
 }
@@ -83,28 +206,34 @@ ul{
     }
 .right{
     position:absolute;
-    width:60%;
+    width:70%;
     top:5px; 
     right:10px;
 }
 .Nav-Card{
-    width: 30%;
-    height:125px;
+    width: 100%;
+    height:100%;
+    background-color: #062559;
+    text-align:left;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid red;
+} */
+/* .Nav-Card-2{ */
+    /* width: 65%; */
+    /* height:125px;
     background-color: #062559;
     color: #ffffff;
     text-align:left;
     padding: 5px 5px 5px 5px;
     border: 2px solid red;
-}
-.Nav-Card-2{
-    width: 65%;
-    height:125px;
-    background-color: #062559;
-    color: #ffffff;
-    text-align:left;
-    padding: 5px 5px 5px 5px;
-    border: 2px solid red;
-}
+} */
+
+
+
+
+
+
+
 footer{
     background-color: #373738;
     padding: 10px 10px 10px 200px;
