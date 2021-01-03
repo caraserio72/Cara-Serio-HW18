@@ -1,0 +1,112 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #B4B1B1;
+    color: #ffffff;
+}
+h1{
+    font-size: 36px;
+    font-weight:600;
+}
+h2{
+    font-size:24px;
+    font-weight:200;
+}
+h3{
+    font-size:18px;
+    font-weight:400;
+}
+h4{
+    font-size:14px;
+    font-weight:500;
+}
+.navigation{
+    width:100%;
+    border: 2px solid red;
+    position:relative;
+}
+.inline-block-1{
+    display:inline-block;
+    vertical-align:top;
+    border: 2px solid red;
+    margin:2px;
+}
+.logo{
+    width:100px;
+    padding:5px;
+    border-radius: 7px    
+}
+.inline-block-2{
+    display:inline-block;
+    vertical-align:bottom;
+    border: 2px solid red;
+    position:absolute;
+    Bottom:0px;
+    Right:5px;
+    margin:2px;
+
+}
+.primary-nav{
+    width:23%;
+    margin:1px;
+    box-align:right;
+}
+nav{
+    width:73%;
+    padding:1%;
+}
+ul{
+  width:50%;
+  margin-left:auto; 
+} 
+.heroimg{
+    height:400px;
+    width:100%;
+    padding:10px;
+    border: 2px solid red;
+    position:relative;
+}
+.content{
+    height:95%;
+    border: 2px solid red;
+    padding: 5px;
+    display:inline-block;
+}
+.left{
+    position:absolute;
+    width:30%;
+    top:5px;
+    left:10px;
+}
+#headshot{
+    width:150px;
+    border-radius:7px;
+    }
+.right{
+    position:absolute;
+    width:60%;
+    top:5px; 
+    right:10px;
+}
+.Nav-Card{
+    width: 30%;
+    height:125px;
+    background-color: #062559;
+    color: #ffffff;
+    text-align:left;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid red;
+}
+.Nav-Card-2{
+    width: 65%;
+    height:125px;
+    background-color: #062559;
+    color: #ffffff;
+    text-align:left;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid red;
+}
+footer{
+    background-color: #373738;
+    padding: 10px 10px 10px 200px;
+    border: 2px solid red;
+}
