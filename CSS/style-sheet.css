@@ -31,7 +31,8 @@ h4{
 .navigation{
     display:flex;
     margin:auto;
-    width:100%;
+    width:100vw;
+    padding:10px;
     border: 2px solid red;
     position:relative;
 }
@@ -53,12 +54,10 @@ h4{
     justify-content: flex-end;
     width:75%;
     padding:1%;
-    border: 2px solid red;
     position:absolute;
     Bottom:0px;
     Right:5px;
     margin:2px;
-
 }
 .primary-nav{
     width:25%;
@@ -69,8 +68,9 @@ h4{
     text-align:center;
     text-decoration:none;
 }
-
-.heroimg{
+.sitecontentgridlayout{
+   width:100vw;
+   border: 2px solid red;
    display:grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-rows: 200px 200px 200px;
@@ -81,7 +81,6 @@ h4{
     ;
     grid-gap:10px;
     padding:10px;
-    border:2px solid red;
 }
 /* div{
     margin:2px;
@@ -92,14 +91,12 @@ h4{
     grid-area:leftsidebartop;
     margin:2px;
     text-align: left;
-    border:2px solid red;
 }
 .leftsidebarbottom{
     grid-area:leftsidebarbottom;
     position:relative;
     margin:2px;
     text-align: left;
-    border:2px solid red;
 }
 .middlecolumnrow1{
     grid-area:middlecolumnrow1;
@@ -150,20 +147,20 @@ h4{
     border-radius:7px;
 }
 #headshot{
-    height:350px;
+    height:390px;
     align-items: flex-start;
-    padding:20px;
+    padding:5px 5px 5px 5px;
     border-radius:50px;
 }
 #homepage-email{
     align-items:top;
-    padding:5px 5px 5px 20px;
+    padding:5px 5px 5px 5px;
     font-size:24px;
     font-weight: bold;
 }
     #widget{
     width:50px;
-    padding:20px;
+    padding:5px;
 }
 
 
