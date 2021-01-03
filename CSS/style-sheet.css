@@ -211,74 +211,6 @@ h4{
     width:50px;
     padding:5px;
 }
-
-
-
-
-
-/* ul{
-  width:50%;
-  margin-left:auto; 
-}  */
-
-
-
-
-
-
-/* .heroimg{
-    height:400px;
-    width:100%;
-    padding:10px;
-    border: 2px solid red;
-    position:relative;
-}
-.content{
-    height:90%;
-    border: 2px solid red;
-    padding: 5px;
-    display:inline-block;
-}
-.left{
-    position:absolute;
-    width:30%
-    top:5px;
-    left:10px;
-}
-#headshot{
-    width:150px;
-    border-radius:7px;
-    }
-.right{
-    position:absolute;
-    width:70%;
-    top:5px; 
-    right:10px;
-}
-.Nav-Card{
-    width: 100%;
-    height:100%;
-    background-color: #062559;
-    text-align:left;
-    padding: 5px 5px 5px 5px;
-    border: 2px solid red;
-} */
-/* .Nav-Card-2{ */
-    /* width: 65%; */
-    /* height:125px;
-    background-color: #062559;
-    color: #ffffff;
-    text-align:left;
-    padding: 5px 5px 5px 5px;
-    border: 2px solid red;
-} */
-
-
-
-
-
-
-
 footer{
     width:90vw;
     display:flex;
@@ -287,4 +219,25 @@ footer{
     justify-content: flex-start;
     background-color: #373738;
     padding: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width:600px){
+    .sitecontentgridlayout{
+        width:90vw;
+        display:grid;
+        grid-template-columns: 1fr
+        grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
+        grid-template-areas:
+         'leftsidebartop'
+         'leftsidebarbottom'
+         'middlecolumnrow1'
+         'rightcolumnrow1'
+         'middlecolumnrow2'
+         'rightcolumnrow2'
+         'middlecolumnrow3'
+         'rightcolumnrow3'
+         ;
+         grid-gap:10px;
+         padding:10px;
+     }
 }
